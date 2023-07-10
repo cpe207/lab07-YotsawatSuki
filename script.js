@@ -22,6 +22,10 @@ EmailInput.onkeyup = () => {
   EmailInput.classList.remove("is-valid");
   EmailInput.classList.remove("is-invalid");
 };
+PasswordInput.onkeyup = () => {
+  PasswordInput.classList.remove("is-valid");
+  PasswordInput.classList.remove("is-invalid");
+};
 
 submitBtn.onclick = () => {
   let isFirstNameOk = false;
